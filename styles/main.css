@@ -1,0 +1,42 @@
+body {
+    max-width: 1000px;
+    text-align: center;
+}
+
+html {
+    background-image: cyan;
+}
+
+main img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    vertical-align: middle;
+}
+
+.one {
+    align-items: center;
+}
+
+.one img {
+    float: right;
+}
+
+.two {
+    align-items: center;
+    display:flex;
+}
+
+.two img {
+    float: left;
+}
+
+div {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 150px;
+}
